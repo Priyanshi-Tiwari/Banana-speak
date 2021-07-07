@@ -2,9 +2,10 @@ var btntranslate=document.querySelector("#btn-translate");
 
 var txtinput= document.querySelector("#txt-input");
 
+var outputDiv=document.querySelector("#output-div");
+
 function clickHandler() {
-    console.log("clicked");
-    console.log("input is: "+txtinput.value);
+   outputDiv.innerText="akakak"+ txtinput.value
 };
 
 

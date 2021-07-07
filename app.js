@@ -1,2 +1,5 @@
-var username= prompt("what is your name?");
-alert("welcome "+ username)
+var btntranslate=document.querySelector("#btn-translate");
+
+btntranslate.addEventListener("click",function eventHandler(){
+    console.log("clicked")
+})
